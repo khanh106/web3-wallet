@@ -18,14 +18,8 @@ Ví Web3 đa chức năng hỗ trợ:
 | **DApp Browser**| Truy cập trực tiếp các DApp như Uniswap, OpenSea qua ví            |
 
 ## 📦 Công nghệ sử dụng
-```mermaid
-graph LR
-A[Frontend] --> B(css)
-A --> C(Web3Modal)
-A --> D(Ethers.js)
-B --> E(TailwindCSS)
-C --> F(MetaMask/Coinbase)
-D --> G(KPay Smart Contract)
+javaScript,css,ether.js,solidity
+
 🛠 Cài đặt
 bash
 # Clone repo
