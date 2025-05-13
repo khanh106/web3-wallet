@@ -22,8 +22,6 @@ javaScript,css,ether.js,solidity
 
 🛠 Cài đặt
 bash
-# Clone repo
-git clone https://github.com/your-username/web3-wallet.git
 
 # Cài dependencies
 npm install
