@@ -1,0 +1,41 @@
+.token-creation-container {
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.token-creation-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.token-creation-content h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.token-creation-form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .token-creation-form-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .token-creation-container {
+    padding: 1rem;
+  }
+  
+  .token-creation-content {
+    padding: 1rem;
+  }
+} 

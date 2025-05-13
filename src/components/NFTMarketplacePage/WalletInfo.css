@@ -1,0 +1,15 @@
+.wallet-info {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.wallet-info h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.account-info {
+  font-size: 0.9rem;
+  color: #666;
+} 
