@@ -65,8 +65,8 @@ Roadmap phát triển:
 
 markdown
 ## 🗺 Lộ trình
-- [x] Tích hợp KPay Token (Q2/2025)
-- [ ] Cross-chain Swap (Q3/2025)
-- [ ] Mobile App (Q4/2025)
-Liên kết trực tiếp đến các phần code quan trọng:
+- [x] Tích hợp KPay Token (Q1/2025)
+- [ ] Cross-chain Swap (Q2/2025)
+- [ ] Mobile App (Q3/2025)
+
 
