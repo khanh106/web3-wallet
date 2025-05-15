@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 import toast from 'react-hot-toast';
-import HeaderNav from '../components/homepage/HeaderNav';
-import KpayBalanceCard from '../components/homepage/KpayBalanceCard';
-import TokenList from '../components/homepage/TokenList';
-import QuickActions from '../components/homepage/QuickActions';
-import ToastNotification from '../components/homepage/ToastNotification';
-import { styles } from './homepageStyles';
+import HeaderNav from '../../components/homepage/HeaderNav';
+import KpayBalanceCard from '../../components/homepage/KpayBalanceCard';
+import TokenList from '../../components/homepage/TokenList';
+import QuickActions from '../../components/homepage/QuickActions';
+import ToastNotification from '../../components/homepage/ToastNotification';
+import { styles } from '../homePages/homepageStyles';
 
 // Import ABI và địa chỉ contract
-import KPAY_ABI from '../abi/Kpay.json';
-import TOKEN_FACTORY_ABI from '../abi/TokenFactory.json';
+import KPAY_ABI from '../../abi/Kpay.json';
+import TOKEN_FACTORY_ABI from '../../abi/TokenFactory.json';
 
 // Thay thế bằng địa chỉ thực tế của contract
 const KPAY_ADDRESS = '0xa53bc774ED9Ddcc2996c63603E56c8EC11FE665B'; // Địa chỉ contract KPAY

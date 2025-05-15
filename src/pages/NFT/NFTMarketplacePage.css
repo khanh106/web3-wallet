@@ -1,0 +1,138 @@
+.marketplace-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.create-nft-button {
+  background: linear-gradient(45deg, #00ff88, #00a1ff);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+.create-nft-button:hover {
+  background: linear-gradient(45deg, #00a1ff, #00ff88);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.nft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.nft-card {
+  background: #181818;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+.nft-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.nft-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  background: #222;
+}
+
+.nft-info {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nft-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #00ff88;
+}
+
+.nft-desc {
+  color: #b3b3b3;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.nft-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #fff;
+}
+
+.nft-price {
+  color: #00ff88;
+  font-weight: 600;
+}
+
+.nft-seller {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.loading, .no-nft, .error {
+  text-align: center;
+  margin: 2rem 0;
+  color: #ff5252;
+}
+
+/* Trong NFTMarketplacePage.css */
+.nft-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.buy-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buy-button:hover {
+  background-color: #45a049;
+}
+
+.unlist-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.unlist-button:hover {
+  background-color: #da190b;
+}
+
+.nft-card {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.nft-card:hover {
+  transform: translateY(-5px);
+}

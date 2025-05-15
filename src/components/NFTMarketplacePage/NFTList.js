@@ -1,5 +1,6 @@
 import React from 'react';
 import './NFTList.css';
+import './nft.css';
 
 const NFTList = ({ nfts, loading }) => {
   if (loading) {
