@@ -38,8 +38,8 @@ KPay Network (ChainID: 12345 - Tùy chỉnh trong src/config/chains.js)
 
 📊 Hợp đồng thông minh
 Contract	Address	Verify Link
-KPay Token	0x1234...abcd	Etherscan
-NFT Marketplace	0x5678...efgh	BscScan
+KPay Token	"0xa53bc774ED9Ddcc2996c63603E56c8EC11FE665B" Etherscan
+NFT Marketplace	"0x421f76C7Dc399a22138277fe8d842003b397F5B0"	Etherscan
 🎮 Thử nghiệm
 Kết nối ví: Nhấn nút "Connect Wallet" và chọn MetaMask
 
@@ -61,12 +61,5 @@ Video demo ngắn (tối ưu bằng GIF):
 markdown
 ## 🎥 Demo
 ![Video Demo](assets/demo.gif)
-Roadmap phát triển:
-
-markdown
-## 🗺 Lộ trình
-- [x] Tích hợp KPay Token (Q1/2025)
-- [ ] Cross-chain Swap (Q2/2025)
-- [ ] Mobile App (Q3/2025)
 
 
