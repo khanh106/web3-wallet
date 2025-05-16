@@ -54,7 +54,7 @@ Dự án được phát triển bởi [Trần Văn Khánh] © 2025
 Giấy phép MIT - Xem chi tiết tại LICENSE
 
 
-### 💡 Tips nâng cao:
+### video demo:
 
 Video demo ngắn (tối ưu bằng GIF):
 
